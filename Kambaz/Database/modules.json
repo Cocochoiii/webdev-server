@@ -1,0 +1,3102 @@
+[
+  {
+    "_id": "M101",
+    "name": "Introduction to Rocket Propulsion",
+    "description": "Basic principles of rocket propulsion and rocket engines.",
+    "course": "RS101",
+    "lessons": [
+      {
+        "_id": "L101",
+        "name": "History of Rocketry",
+        "description": "A brief history of rocketry and space exploration.",
+        "module": "M101"
+      },
+      {
+        "_id": "L102",
+        "name": "Rocket Propulsion Fundamentals",
+        "description": "Basic principles of rocket propulsion.",
+        "module": "M101"
+      },
+      {
+        "_id": "L103",
+        "name": "Rocket Engine Types",
+        "description": "Overview of different types of rocket engines.",
+        "module": "M101"
+      },
+      {
+        "_id": "L104",
+        "name": "Coco's Field Notes on Launch Day",
+        "description": "My own notes from watching a launch stream with the dogs.",
+        "module": "M101"
+      }
+    ]
+  },
+  {
+    "_id": "M102",
+    "name": "Fuel and Combustion",
+    "description": "Understanding rocket fuel, combustion processes, and efficiency.",
+    "course": "RS101",
+    "lessons": [
+      {
+        "_id": "L201",
+        "name": "Rocket Fuel",
+        "description": "Overview of different types of rocket fuels.",
+        "module": "M102"
+      },
+      {
+        "_id": "L202",
+        "name": "Combustion Processes",
+        "description": "Understanding combustion processes and efficiency.",
+        "module": "M102"
+      },
+      {
+        "_id": "L203",
+        "name": "Combustion Instability",
+        "description": "Understanding combustion instability and mitigation.",
+        "module": "M102"
+      },
+      {
+        "_id": "L204",
+        "name": "Nozzle Design",
+        "description": "How nozzle shape affects thrust.",
+        "module": "M102"
+      }
+    ]
+  },
+  {
+    "_id": "M103",
+    "name": "Nozzle Design",
+    "description": "Principles of rocket nozzle design and performance optimization.",
+    "course": "RS101",
+    "lessons": [
+      {
+        "_id": "L301",
+        "name": "Nozzle Types",
+        "description": "Overview of different types of rocket nozzles.",
+        "module": "M103"
+      },
+      {
+        "_id": "L302",
+        "name": "Nozzle Performance",
+        "description": "Understanding nozzle performance and efficiency.",
+        "module": "M103"
+      },
+      {
+        "_id": "L303",
+        "name": "Nozzle Optimization",
+        "description": "Optimizing nozzle design for specific applications.",
+        "module": "M103"
+      }
+    ]
+  },
+  {
+    "_id": "M201",
+    "name": "Fundamentals of Aerodynamics",
+    "description": "Basic aerodynamic concepts and fluid dynamics principles.",
+    "course": "RS102",
+    "lessons": [
+      {
+        "_id": "L401",
+        "name": "Introduction to Fluid Dynamics",
+        "description": "Fundamentals of fluid mechanics and flow principles.",
+        "module": "M201"
+      },
+      {
+        "_id": "L402",
+        "name": "Airfoil Theory",
+        "description": "Understanding airfoil design and lift generation.",
+        "module": "M201"
+      },
+      {
+        "_id": "L403",
+        "name": "Drag and Lift Forces",
+        "description": "Analysis of aerodynamic forces on aircraft.",
+        "module": "M201"
+      }
+    ]
+  },
+  {
+    "_id": "M202",
+    "name": "Subsonic and Supersonic Flow",
+    "description": "Understanding subsonic and supersonic aerodynamic behaviors.",
+    "course": "RS102",
+    "lessons": [
+      {
+        "_id": "L404",
+        "name": "Subsonic Flow Analysis",
+        "description": "Principles of subsonic aerodynamics.",
+        "module": "M202"
+      },
+      {
+        "_id": "L405",
+        "name": "Supersonic Flow Analysis",
+        "description": "Understanding shock waves and supersonic effects.",
+        "module": "M202"
+      },
+      {
+        "_id": "L406",
+        "name": "Transonic Flow",
+        "description": "Flow behavior at near-sonic speeds.",
+        "module": "M202"
+      }
+    ]
+  },
+  {
+    "_id": "M203",
+    "name": "Aerodynamic Heating",
+    "description": "Study of aerodynamic heating and thermal protection systems.",
+    "course": "RS102",
+    "lessons": [
+      {
+        "_id": "L407",
+        "name": "Heat Transfer in Flight",
+        "description": "Understanding aerodynamic heating mechanisms.",
+        "module": "M203"
+      },
+      {
+        "_id": "L408",
+        "name": "Thermal Protection Systems",
+        "description": "Design of heat shields and protection materials.",
+        "module": "M203"
+      }
+    ]
+  },
+  {
+    "_id": "M301",
+    "name": "Spacecraft Structural Design",
+    "description": "Fundamentals of designing spacecraft structures and materials selection.",
+    "course": "RS103",
+    "lessons": [
+      {
+        "_id": "L501",
+        "name": "Structural Materials",
+        "description": "Selection and properties of spacecraft materials.",
+        "module": "M301"
+      },
+      {
+        "_id": "L502",
+        "name": "Load Analysis",
+        "description": "Understanding forces and stresses on spacecraft.",
+        "module": "M301"
+      },
+      {
+        "_id": "L503",
+        "name": "Structural Testing",
+        "description": "Testing and validation of spacecraft structures.",
+        "module": "M301"
+      }
+    ]
+  },
+  {
+    "_id": "M302",
+    "name": "Orbital Mechanics",
+    "description": "Understanding orbital dynamics and mission planning.",
+    "course": "RS103",
+    "lessons": [
+      {
+        "_id": "L504",
+        "name": "Kepler's Laws",
+        "description": "Understanding orbital motion principles.",
+        "module": "M302"
+      },
+      {
+        "_id": "L505",
+        "name": "Orbital Transfers",
+        "description": "Hohmann transfers and trajectory planning.",
+        "module": "M302"
+      },
+      {
+        "_id": "L506",
+        "name": "Mission Planning",
+        "description": "Designing spacecraft missions and orbits.",
+        "module": "M302"
+      }
+    ]
+  },
+  {
+    "_id": "M303",
+    "name": "Spacecraft Systems Engineering",
+    "description": "Overview of spacecraft systems and subsystems engineering.",
+    "course": "RS103",
+    "lessons": [
+      {
+        "_id": "L507",
+        "name": "Power Systems",
+        "description": "Solar panels and power management for spacecraft.",
+        "module": "M303"
+      },
+      {
+        "_id": "L508",
+        "name": "Communication Systems",
+        "description": "Spacecraft communication and telemetry.",
+        "module": "M303"
+      },
+      {
+        "_id": "L509",
+        "name": "Thermal Management",
+        "description": "Temperature control in the space environment.",
+        "module": "M303"
+      }
+    ]
+  },
+  {
+    "_id": "M-5610-01",
+    "name": "Web Foundations & Tooling",
+    "description": "Lessons about web foundations & tooling.",
+    "course": "5610",
+    "lessons": [
+      {
+        "_id": "L-5610-01-1",
+        "name": "Dev environment & Node.js",
+        "description": "Lesson on dev environment & node.js.",
+        "module": "M-5610-01"
+      },
+      {
+        "_id": "L-5610-01-2",
+        "name": "Git & GitHub workflow",
+        "description": "Lesson on git & github workflow.",
+        "module": "M-5610-01"
+      },
+      {
+        "_id": "L-5610-01-3",
+        "name": "HTTP & the browser",
+        "description": "Lesson on http & the browser.",
+        "module": "M-5610-01"
+      }
+    ]
+  },
+  {
+    "_id": "M-5610-02",
+    "name": "HTML & Semantic Markup",
+    "description": "Lessons about html & semantic markup.",
+    "course": "5610",
+    "lessons": [
+      {
+        "_id": "L-5610-02-1",
+        "name": "Document structure",
+        "description": "Lesson on document structure.",
+        "module": "M-5610-02"
+      },
+      {
+        "_id": "L-5610-02-2",
+        "name": "Lists, tables, forms",
+        "description": "Lesson on lists, tables, forms.",
+        "module": "M-5610-02"
+      },
+      {
+        "_id": "L-5610-02-3",
+        "name": "Accessibility basics",
+        "description": "Lesson on accessibility basics.",
+        "module": "M-5610-02"
+      }
+    ]
+  },
+  {
+    "_id": "M-5610-03",
+    "name": "CSS & Layout",
+    "description": "Lessons about css & layout.",
+    "course": "5610",
+    "lessons": [
+      {
+        "_id": "L-5610-03-1",
+        "name": "Selectors & box model",
+        "description": "Lesson on selectors & box model.",
+        "module": "M-5610-03"
+      },
+      {
+        "_id": "L-5610-03-2",
+        "name": "Flexbox",
+        "description": "Lesson on flexbox.",
+        "module": "M-5610-03"
+      },
+      {
+        "_id": "L-5610-03-3",
+        "name": "CSS Grid & responsive design",
+        "description": "Lesson on css grid & responsive design.",
+        "module": "M-5610-03"
+      }
+    ]
+  },
+  {
+    "_id": "M-5610-04",
+    "name": "JavaScript Fundamentals",
+    "description": "Lessons about javascript fundamentals.",
+    "course": "5610",
+    "lessons": [
+      {
+        "_id": "L-5610-04-1",
+        "name": "Variables & types",
+        "description": "Lesson on variables & types.",
+        "module": "M-5610-04"
+      },
+      {
+        "_id": "L-5610-04-2",
+        "name": "Functions & scope",
+        "description": "Lesson on functions & scope.",
+        "module": "M-5610-04"
+      },
+      {
+        "_id": "L-5610-04-3",
+        "name": "Arrays & objects",
+        "description": "Lesson on arrays & objects.",
+        "module": "M-5610-04"
+      }
+    ]
+  },
+  {
+    "_id": "M-5610-05",
+    "name": "Modern JavaScript (ES6+)",
+    "description": "Lessons about modern javascript (es6+).",
+    "course": "5610",
+    "lessons": [
+      {
+        "_id": "L-5610-05-1",
+        "name": "Arrow functions & spread",
+        "description": "Lesson on arrow functions & spread.",
+        "module": "M-5610-05"
+      },
+      {
+        "_id": "L-5610-05-2",
+        "name": "Destructuring",
+        "description": "Lesson on destructuring.",
+        "module": "M-5610-05"
+      },
+      {
+        "_id": "L-5610-05-3",
+        "name": "Modules & promises",
+        "description": "Lesson on modules & promises.",
+        "module": "M-5610-05"
+      }
+    ]
+  },
+  {
+    "_id": "M-5610-06",
+    "name": "React Fundamentals",
+    "description": "Lessons about react fundamentals.",
+    "course": "5610",
+    "lessons": [
+      {
+        "_id": "L-5610-06-1",
+        "name": "Components & JSX",
+        "description": "Lesson on components & jsx.",
+        "module": "M-5610-06"
+      },
+      {
+        "_id": "L-5610-06-2",
+        "name": "Props & state",
+        "description": "Lesson on props & state.",
+        "module": "M-5610-06"
+      },
+      {
+        "_id": "L-5610-06-3",
+        "name": "Event handling",
+        "description": "Lesson on event handling.",
+        "module": "M-5610-06"
+      }
+    ]
+  },
+  {
+    "_id": "M-5610-07",
+    "name": "React Hooks & State",
+    "description": "Lessons about react hooks & state.",
+    "course": "5610",
+    "lessons": [
+      {
+        "_id": "L-5610-07-1",
+        "name": "useState & useEffect",
+        "description": "Lesson on usestate & useeffect.",
+        "module": "M-5610-07"
+      },
+      {
+        "_id": "L-5610-07-2",
+        "name": "Custom hooks",
+        "description": "Lesson on custom hooks.",
+        "module": "M-5610-07"
+      },
+      {
+        "_id": "L-5610-07-3",
+        "name": "Context API",
+        "description": "Lesson on context api.",
+        "module": "M-5610-07"
+      }
+    ]
+  },
+  {
+    "_id": "M-5610-08",
+    "name": "Next.js & Routing",
+    "description": "Lessons about next.js & routing.",
+    "course": "5610",
+    "lessons": [
+      {
+        "_id": "L-5610-08-1",
+        "name": "App Router",
+        "description": "Lesson on app router.",
+        "module": "M-5610-08"
+      },
+      {
+        "_id": "L-5610-08-2",
+        "name": "Layouts & dynamic routes",
+        "description": "Lesson on layouts & dynamic routes.",
+        "module": "M-5610-08"
+      },
+      {
+        "_id": "L-5610-08-3",
+        "name": "Server vs client components",
+        "description": "Lesson on server vs client components.",
+        "module": "M-5610-08"
+      }
+    ]
+  },
+  {
+    "_id": "M-5610-09",
+    "name": "Node & Express APIs",
+    "description": "Lessons about node & express apis.",
+    "course": "5610",
+    "lessons": [
+      {
+        "_id": "L-5610-09-1",
+        "name": "REST principles",
+        "description": "Lesson on rest principles.",
+        "module": "M-5610-09"
+      },
+      {
+        "_id": "L-5610-09-2",
+        "name": "Express routing",
+        "description": "Lesson on express routing.",
+        "module": "M-5610-09"
+      },
+      {
+        "_id": "L-5610-09-3",
+        "name": "Middleware & sessions",
+        "description": "Lesson on middleware & sessions.",
+        "module": "M-5610-09"
+      }
+    ]
+  },
+  {
+    "_id": "M-5610-10",
+    "name": "MongoDB & Deployment",
+    "description": "Lessons about mongodb & deployment.",
+    "course": "5610",
+    "lessons": [
+      {
+        "_id": "L-5610-10-1",
+        "name": "MongoDB & Mongoose",
+        "description": "Lesson on mongodb & mongoose.",
+        "module": "M-5610-10"
+      },
+      {
+        "_id": "L-5610-10-2",
+        "name": "Connecting API to DB",
+        "description": "Lesson on connecting api to db.",
+        "module": "M-5610-10"
+      },
+      {
+        "_id": "L-5610-10-3",
+        "name": "Deploying to the cloud",
+        "description": "Lesson on deploying to the cloud.",
+        "module": "M-5610-10"
+      }
+    ]
+  },
+  {
+    "_id": "M-5520-01",
+    "name": "Mobile Foundations",
+    "description": "Lessons about mobile foundations.",
+    "course": "5520",
+    "lessons": [
+      {
+        "_id": "L-5520-01-1",
+        "name": "Platforms & tooling",
+        "description": "Lesson on platforms & tooling.",
+        "module": "M-5520-01"
+      },
+      {
+        "_id": "L-5520-01-2",
+        "name": "Project setup",
+        "description": "Lesson on project setup.",
+        "module": "M-5520-01"
+      },
+      {
+        "_id": "L-5520-01-3",
+        "name": "App lifecycle",
+        "description": "Lesson on app lifecycle.",
+        "module": "M-5520-01"
+      }
+    ]
+  },
+  {
+    "_id": "M-5520-02",
+    "name": "UI Components & Layout",
+    "description": "Lessons about ui components & layout.",
+    "course": "5520",
+    "lessons": [
+      {
+        "_id": "L-5520-02-1",
+        "name": "Views & layouts",
+        "description": "Lesson on views & layouts.",
+        "module": "M-5520-02"
+      },
+      {
+        "_id": "L-5520-02-2",
+        "name": "Styling",
+        "description": "Lesson on styling.",
+        "module": "M-5520-02"
+      },
+      {
+        "_id": "L-5520-02-3",
+        "name": "Responsive UI",
+        "description": "Lesson on responsive ui.",
+        "module": "M-5520-02"
+      }
+    ]
+  },
+  {
+    "_id": "M-5520-03",
+    "name": "Navigation & Routing",
+    "description": "Lessons about navigation & routing.",
+    "course": "5520",
+    "lessons": [
+      {
+        "_id": "L-5520-03-1",
+        "name": "Stack navigation",
+        "description": "Lesson on stack navigation.",
+        "module": "M-5520-03"
+      },
+      {
+        "_id": "L-5520-03-2",
+        "name": "Tabs & drawers",
+        "description": "Lesson on tabs & drawers.",
+        "module": "M-5520-03"
+      },
+      {
+        "_id": "L-5520-03-3",
+        "name": "Passing params",
+        "description": "Lesson on passing params.",
+        "module": "M-5520-03"
+      }
+    ]
+  },
+  {
+    "_id": "M-5520-04",
+    "name": "State & Data",
+    "description": "Lessons about state & data.",
+    "course": "5520",
+    "lessons": [
+      {
+        "_id": "L-5520-04-1",
+        "name": "Component state",
+        "description": "Lesson on component state.",
+        "module": "M-5520-04"
+      },
+      {
+        "_id": "L-5520-04-2",
+        "name": "Global state",
+        "description": "Lesson on global state.",
+        "module": "M-5520-04"
+      },
+      {
+        "_id": "L-5520-04-3",
+        "name": "Context & stores",
+        "description": "Lesson on context & stores.",
+        "module": "M-5520-04"
+      }
+    ]
+  },
+  {
+    "_id": "M-5520-05",
+    "name": "Lists & Forms",
+    "description": "Lessons about lists & forms.",
+    "course": "5520",
+    "lessons": [
+      {
+        "_id": "L-5520-05-1",
+        "name": "Rendering lists",
+        "description": "Lesson on rendering lists.",
+        "module": "M-5520-05"
+      },
+      {
+        "_id": "L-5520-05-2",
+        "name": "Handling input",
+        "description": "Lesson on handling input.",
+        "module": "M-5520-05"
+      },
+      {
+        "_id": "L-5520-05-3",
+        "name": "Validation",
+        "description": "Lesson on validation.",
+        "module": "M-5520-05"
+      }
+    ]
+  },
+  {
+    "_id": "M-5520-06",
+    "name": "Networking",
+    "description": "Lessons about networking.",
+    "course": "5520",
+    "lessons": [
+      {
+        "_id": "L-5520-06-1",
+        "name": "Fetch & REST",
+        "description": "Lesson on fetch & rest.",
+        "module": "M-5520-06"
+      },
+      {
+        "_id": "L-5520-06-2",
+        "name": "Async & promises",
+        "description": "Lesson on async & promises.",
+        "module": "M-5520-06"
+      },
+      {
+        "_id": "L-5520-06-3",
+        "name": "Error handling",
+        "description": "Lesson on error handling.",
+        "module": "M-5520-06"
+      }
+    ]
+  },
+  {
+    "_id": "M-5520-07",
+    "name": "Local Persistence",
+    "description": "Lessons about local persistence.",
+    "course": "5520",
+    "lessons": [
+      {
+        "_id": "L-5520-07-1",
+        "name": "AsyncStorage",
+        "description": "Lesson on asyncstorage.",
+        "module": "M-5520-07"
+      },
+      {
+        "_id": "L-5520-07-2",
+        "name": "SQLite",
+        "description": "Lesson on sqlite.",
+        "module": "M-5520-07"
+      },
+      {
+        "_id": "L-5520-07-3",
+        "name": "Caching data",
+        "description": "Lesson on caching data.",
+        "module": "M-5520-07"
+      }
+    ]
+  },
+  {
+    "_id": "M-5520-08",
+    "name": "Device APIs",
+    "description": "Lessons about device apis.",
+    "course": "5520",
+    "lessons": [
+      {
+        "_id": "L-5520-08-1",
+        "name": "Camera & media",
+        "description": "Lesson on camera & media.",
+        "module": "M-5520-08"
+      },
+      {
+        "_id": "L-5520-08-2",
+        "name": "Geolocation",
+        "description": "Lesson on geolocation.",
+        "module": "M-5520-08"
+      },
+      {
+        "_id": "L-5520-08-3",
+        "name": "Sensors",
+        "description": "Lesson on sensors.",
+        "module": "M-5520-08"
+      }
+    ]
+  },
+  {
+    "_id": "M-5520-09",
+    "name": "Notifications & Background",
+    "description": "Lessons about notifications & background.",
+    "course": "5520",
+    "lessons": [
+      {
+        "_id": "L-5520-09-1",
+        "name": "Push notifications",
+        "description": "Lesson on push notifications.",
+        "module": "M-5520-09"
+      },
+      {
+        "_id": "L-5520-09-2",
+        "name": "Background tasks",
+        "description": "Lesson on background tasks.",
+        "module": "M-5520-09"
+      },
+      {
+        "_id": "L-5520-09-3",
+        "name": "Permissions",
+        "description": "Lesson on permissions.",
+        "module": "M-5520-09"
+      }
+    ]
+  },
+  {
+    "_id": "M-5520-10",
+    "name": "Testing & Release",
+    "description": "Lessons about testing & release.",
+    "course": "5520",
+    "lessons": [
+      {
+        "_id": "L-5520-10-1",
+        "name": "Unit testing",
+        "description": "Lesson on unit testing.",
+        "module": "M-5520-10"
+      },
+      {
+        "_id": "L-5520-10-2",
+        "name": "Debugging",
+        "description": "Lesson on debugging.",
+        "module": "M-5520-10"
+      },
+      {
+        "_id": "L-5520-10-3",
+        "name": "App store release",
+        "description": "Lesson on app store release.",
+        "module": "M-5520-10"
+      }
+    ]
+  },
+  {
+    "_id": "M-5004-01",
+    "name": "OOP Foundations",
+    "description": "Lessons about oop foundations.",
+    "course": "5004",
+    "lessons": [
+      {
+        "_id": "L-5004-01-1",
+        "name": "Classes & objects",
+        "description": "Lesson on classes & objects.",
+        "module": "M-5004-01"
+      },
+      {
+        "_id": "L-5004-01-2",
+        "name": "Encapsulation",
+        "description": "Lesson on encapsulation.",
+        "module": "M-5004-01"
+      },
+      {
+        "_id": "L-5004-01-3",
+        "name": "Constructors",
+        "description": "Lesson on constructors.",
+        "module": "M-5004-01"
+      }
+    ]
+  },
+  {
+    "_id": "M-5004-02",
+    "name": "Inheritance & Polymorphism",
+    "description": "Lessons about inheritance & polymorphism.",
+    "course": "5004",
+    "lessons": [
+      {
+        "_id": "L-5004-02-1",
+        "name": "Inheritance",
+        "description": "Lesson on inheritance.",
+        "module": "M-5004-02"
+      },
+      {
+        "_id": "L-5004-02-2",
+        "name": "Method overriding",
+        "description": "Lesson on method overriding.",
+        "module": "M-5004-02"
+      },
+      {
+        "_id": "L-5004-02-3",
+        "name": "Abstract classes",
+        "description": "Lesson on abstract classes.",
+        "module": "M-5004-02"
+      }
+    ]
+  },
+  {
+    "_id": "M-5004-03",
+    "name": "Interfaces & Abstraction",
+    "description": "Lessons about interfaces & abstraction.",
+    "course": "5004",
+    "lessons": [
+      {
+        "_id": "L-5004-03-1",
+        "name": "Interfaces",
+        "description": "Lesson on interfaces.",
+        "module": "M-5004-03"
+      },
+      {
+        "_id": "L-5004-03-2",
+        "name": "Composition vs inheritance",
+        "description": "Lesson on composition vs inheritance.",
+        "module": "M-5004-03"
+      },
+      {
+        "_id": "L-5004-03-3",
+        "name": "Generics",
+        "description": "Lesson on generics.",
+        "module": "M-5004-03"
+      }
+    ]
+  },
+  {
+    "_id": "M-5004-04",
+    "name": "SOLID Principles",
+    "description": "Lessons about solid principles.",
+    "course": "5004",
+    "lessons": [
+      {
+        "_id": "L-5004-04-1",
+        "name": "Single responsibility",
+        "description": "Lesson on single responsibility.",
+        "module": "M-5004-04"
+      },
+      {
+        "_id": "L-5004-04-2",
+        "name": "Open-closed",
+        "description": "Lesson on open-closed.",
+        "module": "M-5004-04"
+      },
+      {
+        "_id": "L-5004-04-3",
+        "name": "Liskov & DIP",
+        "description": "Lesson on liskov & dip.",
+        "module": "M-5004-04"
+      }
+    ]
+  },
+  {
+    "_id": "M-5004-05",
+    "name": "Creational Patterns",
+    "description": "Lessons about creational patterns.",
+    "course": "5004",
+    "lessons": [
+      {
+        "_id": "L-5004-05-1",
+        "name": "Factory",
+        "description": "Lesson on factory.",
+        "module": "M-5004-05"
+      },
+      {
+        "_id": "L-5004-05-2",
+        "name": "Builder",
+        "description": "Lesson on builder.",
+        "module": "M-5004-05"
+      },
+      {
+        "_id": "L-5004-05-3",
+        "name": "Singleton",
+        "description": "Lesson on singleton.",
+        "module": "M-5004-05"
+      }
+    ]
+  },
+  {
+    "_id": "M-5004-06",
+    "name": "Structural Patterns",
+    "description": "Lessons about structural patterns.",
+    "course": "5004",
+    "lessons": [
+      {
+        "_id": "L-5004-06-1",
+        "name": "Adapter",
+        "description": "Lesson on adapter.",
+        "module": "M-5004-06"
+      },
+      {
+        "_id": "L-5004-06-2",
+        "name": "Decorator",
+        "description": "Lesson on decorator.",
+        "module": "M-5004-06"
+      },
+      {
+        "_id": "L-5004-06-3",
+        "name": "Composite",
+        "description": "Lesson on composite.",
+        "module": "M-5004-06"
+      }
+    ]
+  },
+  {
+    "_id": "M-5004-07",
+    "name": "Behavioral Patterns",
+    "description": "Lessons about behavioral patterns.",
+    "course": "5004",
+    "lessons": [
+      {
+        "_id": "L-5004-07-1",
+        "name": "Observer",
+        "description": "Lesson on observer.",
+        "module": "M-5004-07"
+      },
+      {
+        "_id": "L-5004-07-2",
+        "name": "Strategy",
+        "description": "Lesson on strategy.",
+        "module": "M-5004-07"
+      },
+      {
+        "_id": "L-5004-07-3",
+        "name": "Command",
+        "description": "Lesson on command.",
+        "module": "M-5004-07"
+      }
+    ]
+  },
+  {
+    "_id": "M-5004-08",
+    "name": "Testing & Refactoring",
+    "description": "Lessons about testing & refactoring.",
+    "course": "5004",
+    "lessons": [
+      {
+        "_id": "L-5004-08-1",
+        "name": "Unit testing",
+        "description": "Lesson on unit testing.",
+        "module": "M-5004-08"
+      },
+      {
+        "_id": "L-5004-08-2",
+        "name": "Test-driven development",
+        "description": "Lesson on test-driven development.",
+        "module": "M-5004-08"
+      },
+      {
+        "_id": "L-5004-08-3",
+        "name": "Refactoring",
+        "description": "Lesson on refactoring.",
+        "module": "M-5004-08"
+      }
+    ]
+  },
+  {
+    "_id": "M-5004-09",
+    "name": "Exceptions & Robustness",
+    "description": "Lessons about exceptions & robustness.",
+    "course": "5004",
+    "lessons": [
+      {
+        "_id": "L-5004-09-1",
+        "name": "Exception handling",
+        "description": "Lesson on exception handling.",
+        "module": "M-5004-09"
+      },
+      {
+        "_id": "L-5004-09-2",
+        "name": "Defensive programming",
+        "description": "Lesson on defensive programming.",
+        "module": "M-5004-09"
+      },
+      {
+        "_id": "L-5004-09-3",
+        "name": "Invariants",
+        "description": "Lesson on invariants.",
+        "module": "M-5004-09"
+      }
+    ]
+  },
+  {
+    "_id": "M-5004-10",
+    "name": "Design Case Study",
+    "description": "Lessons about design case study.",
+    "course": "5004",
+    "lessons": [
+      {
+        "_id": "L-5004-10-1",
+        "name": "Requirements to design",
+        "description": "Lesson on requirements to design.",
+        "module": "M-5004-10"
+      },
+      {
+        "_id": "L-5004-10-2",
+        "name": "UML modeling",
+        "description": "Lesson on uml modeling.",
+        "module": "M-5004-10"
+      },
+      {
+        "_id": "L-5004-10-3",
+        "name": "Design review",
+        "description": "Lesson on design review.",
+        "module": "M-5004-10"
+      }
+    ]
+  },
+  {
+    "_id": "M-5200-01",
+    "name": "Data & Databases",
+    "description": "Lessons about data & databases.",
+    "course": "5200",
+    "lessons": [
+      {
+        "_id": "L-5200-01-1",
+        "name": "DBMS overview",
+        "description": "Lesson on dbms overview.",
+        "module": "M-5200-01"
+      },
+      {
+        "_id": "L-5200-01-2",
+        "name": "Data models",
+        "description": "Lesson on data models.",
+        "module": "M-5200-01"
+      },
+      {
+        "_id": "L-5200-01-3",
+        "name": "ER modeling",
+        "description": "Lesson on er modeling.",
+        "module": "M-5200-01"
+      }
+    ]
+  },
+  {
+    "_id": "M-5200-02",
+    "name": "Relational Model",
+    "description": "Lessons about relational model.",
+    "course": "5200",
+    "lessons": [
+      {
+        "_id": "L-5200-02-1",
+        "name": "Relations & keys",
+        "description": "Lesson on relations & keys.",
+        "module": "M-5200-02"
+      },
+      {
+        "_id": "L-5200-02-2",
+        "name": "Relational algebra",
+        "description": "Lesson on relational algebra.",
+        "module": "M-5200-02"
+      },
+      {
+        "_id": "L-5200-02-3",
+        "name": "Schema design",
+        "description": "Lesson on schema design.",
+        "module": "M-5200-02"
+      }
+    ]
+  },
+  {
+    "_id": "M-5200-03",
+    "name": "SQL Basics",
+    "description": "Lessons about sql basics.",
+    "course": "5200",
+    "lessons": [
+      {
+        "_id": "L-5200-03-1",
+        "name": "SELECT & filtering",
+        "description": "Lesson on select & filtering.",
+        "module": "M-5200-03"
+      },
+      {
+        "_id": "L-5200-03-2",
+        "name": "Joins",
+        "description": "Lesson on joins.",
+        "module": "M-5200-03"
+      },
+      {
+        "_id": "L-5200-03-3",
+        "name": "Aggregation & grouping",
+        "description": "Lesson on aggregation & grouping.",
+        "module": "M-5200-03"
+      }
+    ]
+  },
+  {
+    "_id": "M-5200-04",
+    "name": "Advanced SQL",
+    "description": "Lessons about advanced sql.",
+    "course": "5200",
+    "lessons": [
+      {
+        "_id": "L-5200-04-1",
+        "name": "Subqueries",
+        "description": "Lesson on subqueries.",
+        "module": "M-5200-04"
+      },
+      {
+        "_id": "L-5200-04-2",
+        "name": "Views",
+        "description": "Lesson on views.",
+        "module": "M-5200-04"
+      },
+      {
+        "_id": "L-5200-04-3",
+        "name": "Stored procedures",
+        "description": "Lesson on stored procedures.",
+        "module": "M-5200-04"
+      }
+    ]
+  },
+  {
+    "_id": "M-5200-05",
+    "name": "Normalization",
+    "description": "Lessons about normalization.",
+    "course": "5200",
+    "lessons": [
+      {
+        "_id": "L-5200-05-1",
+        "name": "Functional dependencies",
+        "description": "Lesson on functional dependencies.",
+        "module": "M-5200-05"
+      },
+      {
+        "_id": "L-5200-05-2",
+        "name": "Normal forms",
+        "description": "Lesson on normal forms.",
+        "module": "M-5200-05"
+      },
+      {
+        "_id": "L-5200-05-3",
+        "name": "Denormalization",
+        "description": "Lesson on denormalization.",
+        "module": "M-5200-05"
+      }
+    ]
+  },
+  {
+    "_id": "M-5200-06",
+    "name": "Indexing & Storage",
+    "description": "Lessons about indexing & storage.",
+    "course": "5200",
+    "lessons": [
+      {
+        "_id": "L-5200-06-1",
+        "name": "B-trees",
+        "description": "Lesson on b-trees.",
+        "module": "M-5200-06"
+      },
+      {
+        "_id": "L-5200-06-2",
+        "name": "Hash indexes",
+        "description": "Lesson on hash indexes.",
+        "module": "M-5200-06"
+      },
+      {
+        "_id": "L-5200-06-3",
+        "name": "Query optimization",
+        "description": "Lesson on query optimization.",
+        "module": "M-5200-06"
+      }
+    ]
+  },
+  {
+    "_id": "M-5200-07",
+    "name": "Transactions",
+    "description": "Lessons about transactions.",
+    "course": "5200",
+    "lessons": [
+      {
+        "_id": "L-5200-07-1",
+        "name": "ACID properties",
+        "description": "Lesson on acid properties.",
+        "module": "M-5200-07"
+      },
+      {
+        "_id": "L-5200-07-2",
+        "name": "Concurrency control",
+        "description": "Lesson on concurrency control.",
+        "module": "M-5200-07"
+      },
+      {
+        "_id": "L-5200-07-3",
+        "name": "Isolation levels",
+        "description": "Lesson on isolation levels.",
+        "module": "M-5200-07"
+      }
+    ]
+  },
+  {
+    "_id": "M-5200-08",
+    "name": "Recovery & Reliability",
+    "description": "Lessons about recovery & reliability.",
+    "course": "5200",
+    "lessons": [
+      {
+        "_id": "L-5200-08-1",
+        "name": "Logging",
+        "description": "Lesson on logging.",
+        "module": "M-5200-08"
+      },
+      {
+        "_id": "L-5200-08-2",
+        "name": "Checkpoints",
+        "description": "Lesson on checkpoints.",
+        "module": "M-5200-08"
+      },
+      {
+        "_id": "L-5200-08-3",
+        "name": "Backup & restore",
+        "description": "Lesson on backup & restore.",
+        "module": "M-5200-08"
+      }
+    ]
+  },
+  {
+    "_id": "M-5200-09",
+    "name": "NoSQL & Big Data",
+    "description": "Lessons about nosql & big data.",
+    "course": "5200",
+    "lessons": [
+      {
+        "_id": "L-5200-09-1",
+        "name": "Key-value & document stores",
+        "description": "Lesson on key-value & document stores.",
+        "module": "M-5200-09"
+      },
+      {
+        "_id": "L-5200-09-2",
+        "name": "MongoDB",
+        "description": "Lesson on mongodb.",
+        "module": "M-5200-09"
+      },
+      {
+        "_id": "L-5200-09-3",
+        "name": "CAP theorem",
+        "description": "Lesson on cap theorem.",
+        "module": "M-5200-09"
+      }
+    ]
+  },
+  {
+    "_id": "M-5200-10",
+    "name": "Data Applications",
+    "description": "Lessons about data applications.",
+    "course": "5200",
+    "lessons": [
+      {
+        "_id": "L-5200-10-1",
+        "name": "Connecting apps to DB",
+        "description": "Lesson on connecting apps to db.",
+        "module": "M-5200-10"
+      },
+      {
+        "_id": "L-5200-10-2",
+        "name": "ORMs",
+        "description": "Lesson on orms.",
+        "module": "M-5200-10"
+      },
+      {
+        "_id": "L-5200-10-3",
+        "name": "Security & tuning",
+        "description": "Lesson on security & tuning.",
+        "module": "M-5200-10"
+      }
+    ]
+  },
+  {
+    "_id": "M-5800-01",
+    "name": "Algorithm Analysis",
+    "description": "Lessons about algorithm analysis.",
+    "course": "5800",
+    "lessons": [
+      {
+        "_id": "L-5800-01-1",
+        "name": "Asymptotic notation",
+        "description": "Lesson on asymptotic notation.",
+        "module": "M-5800-01"
+      },
+      {
+        "_id": "L-5800-01-2",
+        "name": "Time & space complexity",
+        "description": "Lesson on time & space complexity.",
+        "module": "M-5800-01"
+      },
+      {
+        "_id": "L-5800-01-3",
+        "name": "Recurrences",
+        "description": "Lesson on recurrences.",
+        "module": "M-5800-01"
+      }
+    ]
+  },
+  {
+    "_id": "M-5800-02",
+    "name": "Sorting",
+    "description": "Lessons about sorting.",
+    "course": "5800",
+    "lessons": [
+      {
+        "_id": "L-5800-02-1",
+        "name": "Insertion & merge sort",
+        "description": "Lesson on insertion & merge sort.",
+        "module": "M-5800-02"
+      },
+      {
+        "_id": "L-5800-02-2",
+        "name": "Quicksort",
+        "description": "Lesson on quicksort.",
+        "module": "M-5800-02"
+      },
+      {
+        "_id": "L-5800-02-3",
+        "name": "Heapsort",
+        "description": "Lesson on heapsort.",
+        "module": "M-5800-02"
+      }
+    ]
+  },
+  {
+    "_id": "M-5800-03",
+    "name": "Divide and Conquer",
+    "description": "Lessons about divide and conquer.",
+    "course": "5800",
+    "lessons": [
+      {
+        "_id": "L-5800-03-1",
+        "name": "Master theorem",
+        "description": "Lesson on master theorem.",
+        "module": "M-5800-03"
+      },
+      {
+        "_id": "L-5800-03-2",
+        "name": "Binary search",
+        "description": "Lesson on binary search.",
+        "module": "M-5800-03"
+      },
+      {
+        "_id": "L-5800-03-3",
+        "name": "Closest pair",
+        "description": "Lesson on closest pair.",
+        "module": "M-5800-03"
+      }
+    ]
+  },
+  {
+    "_id": "M-5800-04",
+    "name": "Greedy Algorithms",
+    "description": "Lessons about greedy algorithms.",
+    "course": "5800",
+    "lessons": [
+      {
+        "_id": "L-5800-04-1",
+        "name": "Interval scheduling",
+        "description": "Lesson on interval scheduling.",
+        "module": "M-5800-04"
+      },
+      {
+        "_id": "L-5800-04-2",
+        "name": "Huffman coding",
+        "description": "Lesson on huffman coding.",
+        "module": "M-5800-04"
+      },
+      {
+        "_id": "L-5800-04-3",
+        "name": "MST intro",
+        "description": "Lesson on mst intro.",
+        "module": "M-5800-04"
+      }
+    ]
+  },
+  {
+    "_id": "M-5800-05",
+    "name": "Dynamic Programming",
+    "description": "Lessons about dynamic programming.",
+    "course": "5800",
+    "lessons": [
+      {
+        "_id": "L-5800-05-1",
+        "name": "Memoization",
+        "description": "Lesson on memoization.",
+        "module": "M-5800-05"
+      },
+      {
+        "_id": "L-5800-05-2",
+        "name": "Knapsack",
+        "description": "Lesson on knapsack.",
+        "module": "M-5800-05"
+      },
+      {
+        "_id": "L-5800-05-3",
+        "name": "Longest common subsequence",
+        "description": "Lesson on longest common subsequence.",
+        "module": "M-5800-05"
+      }
+    ]
+  },
+  {
+    "_id": "M-5800-06",
+    "name": "Graph Basics",
+    "description": "Lessons about graph basics.",
+    "course": "5800",
+    "lessons": [
+      {
+        "_id": "L-5800-06-1",
+        "name": "Representations",
+        "description": "Lesson on representations.",
+        "module": "M-5800-06"
+      },
+      {
+        "_id": "L-5800-06-2",
+        "name": "BFS",
+        "description": "Lesson on bfs.",
+        "module": "M-5800-06"
+      },
+      {
+        "_id": "L-5800-06-3",
+        "name": "DFS",
+        "description": "Lesson on dfs.",
+        "module": "M-5800-06"
+      }
+    ]
+  },
+  {
+    "_id": "M-5800-07",
+    "name": "Shortest Paths",
+    "description": "Lessons about shortest paths.",
+    "course": "5800",
+    "lessons": [
+      {
+        "_id": "L-5800-07-1",
+        "name": "Dijkstra",
+        "description": "Lesson on dijkstra.",
+        "module": "M-5800-07"
+      },
+      {
+        "_id": "L-5800-07-2",
+        "name": "Bellman-Ford",
+        "description": "Lesson on bellman-ford.",
+        "module": "M-5800-07"
+      },
+      {
+        "_id": "L-5800-07-3",
+        "name": "Floyd-Warshall",
+        "description": "Lesson on floyd-warshall.",
+        "module": "M-5800-07"
+      }
+    ]
+  },
+  {
+    "_id": "M-5800-08",
+    "name": "Minimum Spanning Trees",
+    "description": "Lessons about minimum spanning trees.",
+    "course": "5800",
+    "lessons": [
+      {
+        "_id": "L-5800-08-1",
+        "name": "Kruskal",
+        "description": "Lesson on kruskal.",
+        "module": "M-5800-08"
+      },
+      {
+        "_id": "L-5800-08-2",
+        "name": "Prim",
+        "description": "Lesson on prim.",
+        "module": "M-5800-08"
+      },
+      {
+        "_id": "L-5800-08-3",
+        "name": "Union-Find",
+        "description": "Lesson on union-find.",
+        "module": "M-5800-08"
+      }
+    ]
+  },
+  {
+    "_id": "M-5800-09",
+    "name": "Network Flow",
+    "description": "Lessons about network flow.",
+    "course": "5800",
+    "lessons": [
+      {
+        "_id": "L-5800-09-1",
+        "name": "Max flow",
+        "description": "Lesson on max flow.",
+        "module": "M-5800-09"
+      },
+      {
+        "_id": "L-5800-09-2",
+        "name": "Min cut",
+        "description": "Lesson on min cut.",
+        "module": "M-5800-09"
+      },
+      {
+        "_id": "L-5800-09-3",
+        "name": "Bipartite matching",
+        "description": "Lesson on bipartite matching.",
+        "module": "M-5800-09"
+      }
+    ]
+  },
+  {
+    "_id": "M-5800-10",
+    "name": "NP-Completeness",
+    "description": "Lessons about np-completeness.",
+    "course": "5800",
+    "lessons": [
+      {
+        "_id": "L-5800-10-1",
+        "name": "P vs NP",
+        "description": "Lesson on p vs np.",
+        "module": "M-5800-10"
+      },
+      {
+        "_id": "L-5800-10-2",
+        "name": "Reductions",
+        "description": "Lesson on reductions.",
+        "module": "M-5800-10"
+      },
+      {
+        "_id": "L-5800-10-3",
+        "name": "Approximation algorithms",
+        "description": "Lesson on approximation algorithms.",
+        "module": "M-5800-10"
+      }
+    ]
+  },
+  {
+    "_id": "M-6620-01",
+    "name": "Cloud Foundations",
+    "description": "Lessons about cloud foundations.",
+    "course": "6620",
+    "lessons": [
+      {
+        "_id": "L-6620-01-1",
+        "name": "Service models",
+        "description": "Lesson on service models.",
+        "module": "M-6620-01"
+      },
+      {
+        "_id": "L-6620-01-2",
+        "name": "Deployment models",
+        "description": "Lesson on deployment models.",
+        "module": "M-6620-01"
+      },
+      {
+        "_id": "L-6620-01-3",
+        "name": "Cloud economics",
+        "description": "Lesson on cloud economics.",
+        "module": "M-6620-01"
+      }
+    ]
+  },
+  {
+    "_id": "M-6620-02",
+    "name": "Virtualization",
+    "description": "Lessons about virtualization.",
+    "course": "6620",
+    "lessons": [
+      {
+        "_id": "L-6620-02-1",
+        "name": "Hypervisors",
+        "description": "Lesson on hypervisors.",
+        "module": "M-6620-02"
+      },
+      {
+        "_id": "L-6620-02-2",
+        "name": "Virtual machines",
+        "description": "Lesson on virtual machines.",
+        "module": "M-6620-02"
+      },
+      {
+        "_id": "L-6620-02-3",
+        "name": "Resource isolation",
+        "description": "Lesson on resource isolation.",
+        "module": "M-6620-02"
+      }
+    ]
+  },
+  {
+    "_id": "M-6620-03",
+    "name": "Containers",
+    "description": "Lessons about containers.",
+    "course": "6620",
+    "lessons": [
+      {
+        "_id": "L-6620-03-1",
+        "name": "Docker basics",
+        "description": "Lesson on docker basics.",
+        "module": "M-6620-03"
+      },
+      {
+        "_id": "L-6620-03-2",
+        "name": "Images & registries",
+        "description": "Lesson on images & registries.",
+        "module": "M-6620-03"
+      },
+      {
+        "_id": "L-6620-03-3",
+        "name": "Container networking",
+        "description": "Lesson on container networking.",
+        "module": "M-6620-03"
+      }
+    ]
+  },
+  {
+    "_id": "M-6620-04",
+    "name": "Orchestration",
+    "description": "Lessons about orchestration.",
+    "course": "6620",
+    "lessons": [
+      {
+        "_id": "L-6620-04-1",
+        "name": "Kubernetes concepts",
+        "description": "Lesson on kubernetes concepts.",
+        "module": "M-6620-04"
+      },
+      {
+        "_id": "L-6620-04-2",
+        "name": "Pods & services",
+        "description": "Lesson on pods & services.",
+        "module": "M-6620-04"
+      },
+      {
+        "_id": "L-6620-04-3",
+        "name": "Scaling & scheduling",
+        "description": "Lesson on scaling & scheduling.",
+        "module": "M-6620-04"
+      }
+    ]
+  },
+  {
+    "_id": "M-6620-05",
+    "name": "Storage",
+    "description": "Lessons about storage.",
+    "course": "6620",
+    "lessons": [
+      {
+        "_id": "L-6620-05-1",
+        "name": "Object storage",
+        "description": "Lesson on object storage.",
+        "module": "M-6620-05"
+      },
+      {
+        "_id": "L-6620-05-2",
+        "name": "Block & file storage",
+        "description": "Lesson on block & file storage.",
+        "module": "M-6620-05"
+      },
+      {
+        "_id": "L-6620-05-3",
+        "name": "Data durability",
+        "description": "Lesson on data durability.",
+        "module": "M-6620-05"
+      }
+    ]
+  },
+  {
+    "_id": "M-6620-06",
+    "name": "Cloud Networking",
+    "description": "Lessons about cloud networking.",
+    "course": "6620",
+    "lessons": [
+      {
+        "_id": "L-6620-06-1",
+        "name": "VPCs",
+        "description": "Lesson on vpcs.",
+        "module": "M-6620-06"
+      },
+      {
+        "_id": "L-6620-06-2",
+        "name": "Load balancing",
+        "description": "Lesson on load balancing.",
+        "module": "M-6620-06"
+      },
+      {
+        "_id": "L-6620-06-3",
+        "name": "CDNs",
+        "description": "Lesson on cdns.",
+        "module": "M-6620-06"
+      }
+    ]
+  },
+  {
+    "_id": "M-6620-07",
+    "name": "Serverless",
+    "description": "Lessons about serverless.",
+    "course": "6620",
+    "lessons": [
+      {
+        "_id": "L-6620-07-1",
+        "name": "Functions as a service",
+        "description": "Lesson on functions as a service.",
+        "module": "M-6620-07"
+      },
+      {
+        "_id": "L-6620-07-2",
+        "name": "Event-driven design",
+        "description": "Lesson on event-driven design.",
+        "module": "M-6620-07"
+      },
+      {
+        "_id": "L-6620-07-3",
+        "name": "Cold starts",
+        "description": "Lesson on cold starts.",
+        "module": "M-6620-07"
+      }
+    ]
+  },
+  {
+    "_id": "M-6620-08",
+    "name": "Data Systems",
+    "description": "Lessons about data systems.",
+    "course": "6620",
+    "lessons": [
+      {
+        "_id": "L-6620-08-1",
+        "name": "Managed databases",
+        "description": "Lesson on managed databases.",
+        "module": "M-6620-08"
+      },
+      {
+        "_id": "L-6620-08-2",
+        "name": "Data pipelines",
+        "description": "Lesson on data pipelines.",
+        "module": "M-6620-08"
+      },
+      {
+        "_id": "L-6620-08-3",
+        "name": "Caching",
+        "description": "Lesson on caching.",
+        "module": "M-6620-08"
+      }
+    ]
+  },
+  {
+    "_id": "M-6620-09",
+    "name": "Security & IAM",
+    "description": "Lessons about security & iam.",
+    "course": "6620",
+    "lessons": [
+      {
+        "_id": "L-6620-09-1",
+        "name": "Identity & access",
+        "description": "Lesson on identity & access.",
+        "module": "M-6620-09"
+      },
+      {
+        "_id": "L-6620-09-2",
+        "name": "Encryption",
+        "description": "Lesson on encryption.",
+        "module": "M-6620-09"
+      },
+      {
+        "_id": "L-6620-09-3",
+        "name": "Compliance",
+        "description": "Lesson on compliance.",
+        "module": "M-6620-09"
+      }
+    ]
+  },
+  {
+    "_id": "M-6620-10",
+    "name": "Reliability & Cost",
+    "description": "Lessons about reliability & cost.",
+    "course": "6620",
+    "lessons": [
+      {
+        "_id": "L-6620-10-1",
+        "name": "Monitoring",
+        "description": "Lesson on monitoring.",
+        "module": "M-6620-10"
+      },
+      {
+        "_id": "L-6620-10-2",
+        "name": "Autoscaling",
+        "description": "Lesson on autoscaling.",
+        "module": "M-6620-10"
+      },
+      {
+        "_id": "L-6620-10-3",
+        "name": "Cost optimization",
+        "description": "Lesson on cost optimization.",
+        "module": "M-6620-10"
+      }
+    ]
+  },
+  {
+    "_id": "M-6510-01",
+    "name": "Software Process",
+    "description": "Lessons about software process.",
+    "course": "6510",
+    "lessons": [
+      {
+        "_id": "L-6510-01-1",
+        "name": "Agile & Scrum",
+        "description": "Lesson on agile & scrum.",
+        "module": "M-6510-01"
+      },
+      {
+        "_id": "L-6510-01-2",
+        "name": "Kanban",
+        "description": "Lesson on kanban.",
+        "module": "M-6510-01"
+      },
+      {
+        "_id": "L-6510-01-3",
+        "name": "Requirements",
+        "description": "Lesson on requirements.",
+        "module": "M-6510-01"
+      }
+    ]
+  },
+  {
+    "_id": "M-6510-02",
+    "name": "Architecture",
+    "description": "Lessons about architecture.",
+    "course": "6510",
+    "lessons": [
+      {
+        "_id": "L-6510-02-1",
+        "name": "Architectural styles",
+        "description": "Lesson on architectural styles.",
+        "module": "M-6510-02"
+      },
+      {
+        "_id": "L-6510-02-2",
+        "name": "Layered & microservices",
+        "description": "Lesson on layered & microservices.",
+        "module": "M-6510-02"
+      },
+      {
+        "_id": "L-6510-02-3",
+        "name": "Trade-offs",
+        "description": "Lesson on trade-offs.",
+        "module": "M-6510-02"
+      }
+    ]
+  },
+  {
+    "_id": "M-6510-03",
+    "name": "Design & Modeling",
+    "description": "Lessons about design & modeling.",
+    "course": "6510",
+    "lessons": [
+      {
+        "_id": "L-6510-03-1",
+        "name": "Domain modeling",
+        "description": "Lesson on domain modeling.",
+        "module": "M-6510-03"
+      },
+      {
+        "_id": "L-6510-03-2",
+        "name": "Design patterns",
+        "description": "Lesson on design patterns.",
+        "module": "M-6510-03"
+      },
+      {
+        "_id": "L-6510-03-3",
+        "name": "API design",
+        "description": "Lesson on api design.",
+        "module": "M-6510-03"
+      }
+    ]
+  },
+  {
+    "_id": "M-6510-04",
+    "name": "Version Control & Collaboration",
+    "description": "Lessons about version control & collaboration.",
+    "course": "6510",
+    "lessons": [
+      {
+        "_id": "L-6510-04-1",
+        "name": "Git branching",
+        "description": "Lesson on git branching.",
+        "module": "M-6510-04"
+      },
+      {
+        "_id": "L-6510-04-2",
+        "name": "Code review",
+        "description": "Lesson on code review.",
+        "module": "M-6510-04"
+      },
+      {
+        "_id": "L-6510-04-3",
+        "name": "Pair programming",
+        "description": "Lesson on pair programming.",
+        "module": "M-6510-04"
+      }
+    ]
+  },
+  {
+    "_id": "M-6510-05",
+    "name": "Testing Strategy",
+    "description": "Lessons about testing strategy.",
+    "course": "6510",
+    "lessons": [
+      {
+        "_id": "L-6510-05-1",
+        "name": "Unit & integration tests",
+        "description": "Lesson on unit & integration tests.",
+        "module": "M-6510-05"
+      },
+      {
+        "_id": "L-6510-05-2",
+        "name": "Mocking",
+        "description": "Lesson on mocking.",
+        "module": "M-6510-05"
+      },
+      {
+        "_id": "L-6510-05-3",
+        "name": "Coverage",
+        "description": "Lesson on coverage.",
+        "module": "M-6510-05"
+      }
+    ]
+  },
+  {
+    "_id": "M-6510-06",
+    "name": "Continuous Integration",
+    "description": "Lessons about continuous integration.",
+    "course": "6510",
+    "lessons": [
+      {
+        "_id": "L-6510-06-1",
+        "name": "Build pipelines",
+        "description": "Lesson on build pipelines.",
+        "module": "M-6510-06"
+      },
+      {
+        "_id": "L-6510-06-2",
+        "name": "Automated testing",
+        "description": "Lesson on automated testing.",
+        "module": "M-6510-06"
+      },
+      {
+        "_id": "L-6510-06-3",
+        "name": "Static analysis",
+        "description": "Lesson on static analysis.",
+        "module": "M-6510-06"
+      }
+    ]
+  },
+  {
+    "_id": "M-6510-07",
+    "name": "Continuous Delivery",
+    "description": "Lessons about continuous delivery.",
+    "course": "6510",
+    "lessons": [
+      {
+        "_id": "L-6510-07-1",
+        "name": "Deployment automation",
+        "description": "Lesson on deployment automation.",
+        "module": "M-6510-07"
+      },
+      {
+        "_id": "L-6510-07-2",
+        "name": "Feature flags",
+        "description": "Lesson on feature flags.",
+        "module": "M-6510-07"
+      },
+      {
+        "_id": "L-6510-07-3",
+        "name": "Rollbacks",
+        "description": "Lesson on rollbacks.",
+        "module": "M-6510-07"
+      }
+    ]
+  },
+  {
+    "_id": "M-6510-08",
+    "name": "Quality & Metrics",
+    "description": "Lessons about quality & metrics.",
+    "course": "6510",
+    "lessons": [
+      {
+        "_id": "L-6510-08-1",
+        "name": "Code quality",
+        "description": "Lesson on code quality.",
+        "module": "M-6510-08"
+      },
+      {
+        "_id": "L-6510-08-2",
+        "name": "Technical debt",
+        "description": "Lesson on technical debt.",
+        "module": "M-6510-08"
+      },
+      {
+        "_id": "L-6510-08-3",
+        "name": "Refactoring",
+        "description": "Lesson on refactoring.",
+        "module": "M-6510-08"
+      }
+    ]
+  },
+  {
+    "_id": "M-6510-09",
+    "name": "Security & Reliability",
+    "description": "Lessons about security & reliability.",
+    "course": "6510",
+    "lessons": [
+      {
+        "_id": "L-6510-09-1",
+        "name": "Secure coding",
+        "description": "Lesson on secure coding.",
+        "module": "M-6510-09"
+      },
+      {
+        "_id": "L-6510-09-2",
+        "name": "Logging & monitoring",
+        "description": "Lesson on logging & monitoring.",
+        "module": "M-6510-09"
+      },
+      {
+        "_id": "L-6510-09-3",
+        "name": "Incident response",
+        "description": "Lesson on incident response.",
+        "module": "M-6510-09"
+      }
+    ]
+  },
+  {
+    "_id": "M-6510-10",
+    "name": "Capstone Delivery",
+    "description": "Lessons about capstone delivery.",
+    "course": "6510",
+    "lessons": [
+      {
+        "_id": "L-6510-10-1",
+        "name": "Project planning",
+        "description": "Lesson on project planning.",
+        "module": "M-6510-10"
+      },
+      {
+        "_id": "L-6510-10-2",
+        "name": "Team execution",
+        "description": "Lesson on team execution.",
+        "module": "M-6510-10"
+      },
+      {
+        "_id": "L-6510-10-3",
+        "name": "Product demo",
+        "description": "Lesson on product demo.",
+        "module": "M-6510-10"
+      }
+    ]
+  },
+  {
+    "_id": "M-5700-01",
+    "name": "Internet Architecture",
+    "description": "Lessons about internet architecture.",
+    "course": "5700",
+    "lessons": [
+      {
+        "_id": "L-5700-01-1",
+        "name": "Protocol layering",
+        "description": "Lesson on protocol layering.",
+        "module": "M-5700-01"
+      },
+      {
+        "_id": "L-5700-01-2",
+        "name": "Packet switching",
+        "description": "Lesson on packet switching.",
+        "module": "M-5700-01"
+      },
+      {
+        "_id": "L-5700-01-3",
+        "name": "Network edge & core",
+        "description": "Lesson on network edge & core.",
+        "module": "M-5700-01"
+      }
+    ]
+  },
+  {
+    "_id": "M-5700-02",
+    "name": "Application Layer",
+    "description": "Lessons about application layer.",
+    "course": "5700",
+    "lessons": [
+      {
+        "_id": "L-5700-02-1",
+        "name": "HTTP & web",
+        "description": "Lesson on http & web.",
+        "module": "M-5700-02"
+      },
+      {
+        "_id": "L-5700-02-2",
+        "name": "DNS",
+        "description": "Lesson on dns.",
+        "module": "M-5700-02"
+      },
+      {
+        "_id": "L-5700-02-3",
+        "name": "Email & P2P",
+        "description": "Lesson on email & p2p.",
+        "module": "M-5700-02"
+      }
+    ]
+  },
+  {
+    "_id": "M-5700-03",
+    "name": "Network Performance",
+    "description": "Lessons about network performance.",
+    "course": "5700",
+    "lessons": [
+      {
+        "_id": "L-5700-03-1",
+        "name": "Queuing theory basics",
+        "description": "Lesson on queuing theory basics.",
+        "module": "M-5700-03"
+      },
+      {
+        "_id": "L-5700-03-2",
+        "name": "Little's theorem and M/M/1",
+        "description": "Lesson on little's theorem and m/m/1.",
+        "module": "M-5700-03"
+      },
+      {
+        "_id": "L-5700-03-3",
+        "name": "Performance metrics and simulation",
+        "description": "Lesson on performance metrics and simulation.",
+        "module": "M-5700-03"
+      }
+    ]
+  },
+  {
+    "_id": "M-5700-04",
+    "name": "Transport Layer",
+    "description": "Lessons about transport layer.",
+    "course": "5700",
+    "lessons": [
+      {
+        "_id": "L-5700-04-1",
+        "name": "UDP",
+        "description": "Lesson on udp.",
+        "module": "M-5700-04"
+      },
+      {
+        "_id": "L-5700-04-2",
+        "name": "Reliable data transfer",
+        "description": "Lesson on reliable data transfer.",
+        "module": "M-5700-04"
+      },
+      {
+        "_id": "L-5700-04-3",
+        "name": "TCP basics",
+        "description": "Lesson on tcp basics.",
+        "module": "M-5700-04"
+      }
+    ]
+  },
+  {
+    "_id": "M-5700-05",
+    "name": "TCP in Depth",
+    "description": "Lessons about tcp in depth.",
+    "course": "5700",
+    "lessons": [
+      {
+        "_id": "L-5700-05-1",
+        "name": "Flow control",
+        "description": "Lesson on flow control.",
+        "module": "M-5700-05"
+      },
+      {
+        "_id": "L-5700-05-2",
+        "name": "Congestion control",
+        "description": "Lesson on congestion control.",
+        "module": "M-5700-05"
+      },
+      {
+        "_id": "L-5700-05-3",
+        "name": "Fairness",
+        "description": "Lesson on fairness.",
+        "module": "M-5700-05"
+      }
+    ]
+  },
+  {
+    "_id": "M-5700-06",
+    "name": "Network Layer",
+    "description": "Lessons about network layer.",
+    "course": "5700",
+    "lessons": [
+      {
+        "_id": "L-5700-06-1",
+        "name": "IP addressing",
+        "description": "Lesson on ip addressing.",
+        "module": "M-5700-06"
+      },
+      {
+        "_id": "L-5700-06-2",
+        "name": "Forwarding",
+        "description": "Lesson on forwarding.",
+        "module": "M-5700-06"
+      },
+      {
+        "_id": "L-5700-06-3",
+        "name": "NAT & DHCP",
+        "description": "Lesson on nat & dhcp.",
+        "module": "M-5700-06"
+      }
+    ]
+  },
+  {
+    "_id": "M-5700-07",
+    "name": "Routing",
+    "description": "Lessons about routing.",
+    "course": "5700",
+    "lessons": [
+      {
+        "_id": "L-5700-07-1",
+        "name": "Link-state routing",
+        "description": "Lesson on link-state routing.",
+        "module": "M-5700-07"
+      },
+      {
+        "_id": "L-5700-07-2",
+        "name": "Distance-vector",
+        "description": "Lesson on distance-vector.",
+        "module": "M-5700-07"
+      },
+      {
+        "_id": "L-5700-07-3",
+        "name": "BGP",
+        "description": "Lesson on bgp.",
+        "module": "M-5700-07"
+      }
+    ]
+  },
+  {
+    "_id": "M-5700-08",
+    "name": "Link Layer",
+    "description": "Lessons about link layer.",
+    "course": "5700",
+    "lessons": [
+      {
+        "_id": "L-5700-08-1",
+        "name": "Error detection",
+        "description": "Lesson on error detection.",
+        "module": "M-5700-08"
+      },
+      {
+        "_id": "L-5700-08-2",
+        "name": "Multiple access",
+        "description": "Lesson on multiple access.",
+        "module": "M-5700-08"
+      },
+      {
+        "_id": "L-5700-08-3",
+        "name": "Switching & VLANs",
+        "description": "Lesson on switching & vlans.",
+        "module": "M-5700-08"
+      }
+    ]
+  },
+  {
+    "_id": "M-5700-09",
+    "name": "Wireless & Mobility",
+    "description": "Lessons about wireless & mobility.",
+    "course": "5700",
+    "lessons": [
+      {
+        "_id": "L-5700-09-1",
+        "name": "Wi-Fi",
+        "description": "Lesson on wi-fi.",
+        "module": "M-5700-09"
+      },
+      {
+        "_id": "L-5700-09-2",
+        "name": "Cellular",
+        "description": "Lesson on cellular.",
+        "module": "M-5700-09"
+      },
+      {
+        "_id": "L-5700-09-3",
+        "name": "Mobile IP",
+        "description": "Lesson on mobile ip.",
+        "module": "M-5700-09"
+      }
+    ]
+  },
+  {
+    "_id": "M-5700-10",
+    "name": "Network Security",
+    "description": "Lessons about network security.",
+    "course": "5700",
+    "lessons": [
+      {
+        "_id": "L-5700-10-1",
+        "name": "Cryptography basics",
+        "description": "Lesson on cryptography basics.",
+        "module": "M-5700-10"
+      },
+      {
+        "_id": "L-5700-10-2",
+        "name": "TLS",
+        "description": "Lesson on tls.",
+        "module": "M-5700-10"
+      },
+      {
+        "_id": "L-5700-10-3",
+        "name": "Firewalls & VPNs",
+        "description": "Lesson on firewalls & vpns.",
+        "module": "M-5700-10"
+      }
+    ]
+  },
+  {
+    "_id": "M-6140-01",
+    "name": "ML Foundations",
+    "description": "Lessons about ml foundations.",
+    "course": "6140",
+    "lessons": [
+      {
+        "_id": "L-6140-01-1",
+        "name": "Supervised vs unsupervised",
+        "description": "Lesson on supervised vs unsupervised.",
+        "module": "M-6140-01"
+      },
+      {
+        "_id": "L-6140-01-2",
+        "name": "Probability & linear algebra",
+        "description": "Lesson on probability & linear algebra.",
+        "module": "M-6140-01"
+      },
+      {
+        "_id": "L-6140-01-3",
+        "name": "Train/test split",
+        "description": "Lesson on train/test split.",
+        "module": "M-6140-01"
+      }
+    ]
+  },
+  {
+    "_id": "M-6140-02",
+    "name": "Linear Regression",
+    "description": "Lessons about linear regression.",
+    "course": "6140",
+    "lessons": [
+      {
+        "_id": "L-6140-02-1",
+        "name": "Least squares",
+        "description": "Lesson on least squares.",
+        "module": "M-6140-02"
+      },
+      {
+        "_id": "L-6140-02-2",
+        "name": "Gradient descent",
+        "description": "Lesson on gradient descent.",
+        "module": "M-6140-02"
+      },
+      {
+        "_id": "L-6140-02-3",
+        "name": "Regularization",
+        "description": "Lesson on regularization.",
+        "module": "M-6140-02"
+      }
+    ]
+  },
+  {
+    "_id": "M-6140-03",
+    "name": "Logistic Regression",
+    "description": "Lessons about logistic regression.",
+    "course": "6140",
+    "lessons": [
+      {
+        "_id": "L-6140-03-1",
+        "name": "Classification",
+        "description": "Lesson on classification.",
+        "module": "M-6140-03"
+      },
+      {
+        "_id": "L-6140-03-2",
+        "name": "Sigmoid & loss",
+        "description": "Lesson on sigmoid & loss.",
+        "module": "M-6140-03"
+      },
+      {
+        "_id": "L-6140-03-3",
+        "name": "Multiclass",
+        "description": "Lesson on multiclass.",
+        "module": "M-6140-03"
+      }
+    ]
+  },
+  {
+    "_id": "M-6140-04",
+    "name": "Model Evaluation",
+    "description": "Lessons about model evaluation.",
+    "course": "6140",
+    "lessons": [
+      {
+        "_id": "L-6140-04-1",
+        "name": "Bias-variance",
+        "description": "Lesson on bias-variance.",
+        "module": "M-6140-04"
+      },
+      {
+        "_id": "L-6140-04-2",
+        "name": "Cross-validation",
+        "description": "Lesson on cross-validation.",
+        "module": "M-6140-04"
+      },
+      {
+        "_id": "L-6140-04-3",
+        "name": "Metrics",
+        "description": "Lesson on metrics.",
+        "module": "M-6140-04"
+      }
+    ]
+  },
+  {
+    "_id": "M-6140-05",
+    "name": "Trees & Ensembles",
+    "description": "Lessons about trees & ensembles.",
+    "course": "6140",
+    "lessons": [
+      {
+        "_id": "L-6140-05-1",
+        "name": "Decision trees",
+        "description": "Lesson on decision trees.",
+        "module": "M-6140-05"
+      },
+      {
+        "_id": "L-6140-05-2",
+        "name": "Random forests",
+        "description": "Lesson on random forests.",
+        "module": "M-6140-05"
+      },
+      {
+        "_id": "L-6140-05-3",
+        "name": "Boosting",
+        "description": "Lesson on boosting.",
+        "module": "M-6140-05"
+      }
+    ]
+  },
+  {
+    "_id": "M-6140-06",
+    "name": "Probabilistic Models",
+    "description": "Lessons about probabilistic models.",
+    "course": "6140",
+    "lessons": [
+      {
+        "_id": "L-6140-06-1",
+        "name": "Naive Bayes",
+        "description": "Lesson on naive bayes.",
+        "module": "M-6140-06"
+      },
+      {
+        "_id": "L-6140-06-2",
+        "name": "MLE & MAP",
+        "description": "Lesson on mle & map.",
+        "module": "M-6140-06"
+      },
+      {
+        "_id": "L-6140-06-3",
+        "name": "Gaussian models",
+        "description": "Lesson on gaussian models.",
+        "module": "M-6140-06"
+      }
+    ]
+  },
+  {
+    "_id": "M-6140-07",
+    "name": "Support Vector Machines",
+    "description": "Lessons about support vector machines.",
+    "course": "6140",
+    "lessons": [
+      {
+        "_id": "L-6140-07-1",
+        "name": "Margins",
+        "description": "Lesson on margins.",
+        "module": "M-6140-07"
+      },
+      {
+        "_id": "L-6140-07-2",
+        "name": "Kernels",
+        "description": "Lesson on kernels.",
+        "module": "M-6140-07"
+      },
+      {
+        "_id": "L-6140-07-3",
+        "name": "Soft margin",
+        "description": "Lesson on soft margin.",
+        "module": "M-6140-07"
+      }
+    ]
+  },
+  {
+    "_id": "M-6140-08",
+    "name": "Neural Networks",
+    "description": "Lessons about neural networks.",
+    "course": "6140",
+    "lessons": [
+      {
+        "_id": "L-6140-08-1",
+        "name": "Perceptrons",
+        "description": "Lesson on perceptrons.",
+        "module": "M-6140-08"
+      },
+      {
+        "_id": "L-6140-08-2",
+        "name": "Backpropagation",
+        "description": "Lesson on backpropagation.",
+        "module": "M-6140-08"
+      },
+      {
+        "_id": "L-6140-08-3",
+        "name": "Regularization",
+        "description": "Lesson on regularization.",
+        "module": "M-6140-08"
+      }
+    ]
+  },
+  {
+    "_id": "M-6140-09",
+    "name": "Unsupervised Learning",
+    "description": "Lessons about unsupervised learning.",
+    "course": "6140",
+    "lessons": [
+      {
+        "_id": "L-6140-09-1",
+        "name": "K-means",
+        "description": "Lesson on k-means.",
+        "module": "M-6140-09"
+      },
+      {
+        "_id": "L-6140-09-2",
+        "name": "Hierarchical clustering",
+        "description": "Lesson on hierarchical clustering.",
+        "module": "M-6140-09"
+      },
+      {
+        "_id": "L-6140-09-3",
+        "name": "PCA",
+        "description": "Lesson on pca.",
+        "module": "M-6140-09"
+      }
+    ]
+  },
+  {
+    "_id": "M-6140-10",
+    "name": "Reinforcement Learning",
+    "description": "Lessons about reinforcement learning.",
+    "course": "6140",
+    "lessons": [
+      {
+        "_id": "L-6140-10-1",
+        "name": "Markov decision processes",
+        "description": "Lesson on markov decision processes.",
+        "module": "M-6140-10"
+      },
+      {
+        "_id": "L-6140-10-2",
+        "name": "Q-learning",
+        "description": "Lesson on q-learning.",
+        "module": "M-6140-10"
+      },
+      {
+        "_id": "L-6140-10-3",
+        "name": "Learning theory basics",
+        "description": "Lesson on learning theory basics.",
+        "module": "M-6140-10"
+      }
+    ]
+  },
+  {
+    "_id": "M-5100-01",
+    "name": "Intro to AI",
+    "description": "Lessons about intro to ai.",
+    "course": "5100",
+    "lessons": [
+      {
+        "_id": "L-5100-01-1",
+        "name": "Rational agents",
+        "description": "Lesson on rational agents.",
+        "module": "M-5100-01"
+      },
+      {
+        "_id": "L-5100-01-2",
+        "name": "Environments",
+        "description": "Lesson on environments.",
+        "module": "M-5100-01"
+      },
+      {
+        "_id": "L-5100-01-3",
+        "name": "Problem formulation",
+        "description": "Lesson on problem formulation.",
+        "module": "M-5100-01"
+      }
+    ]
+  },
+  {
+    "_id": "M-5100-02",
+    "name": "Uninformed Search",
+    "description": "Lessons about uninformed search.",
+    "course": "5100",
+    "lessons": [
+      {
+        "_id": "L-5100-02-1",
+        "name": "BFS & DFS",
+        "description": "Lesson on bfs & dfs.",
+        "module": "M-5100-02"
+      },
+      {
+        "_id": "L-5100-02-2",
+        "name": "Uniform-cost search",
+        "description": "Lesson on uniform-cost search.",
+        "module": "M-5100-02"
+      },
+      {
+        "_id": "L-5100-02-3",
+        "name": "Iterative deepening",
+        "description": "Lesson on iterative deepening.",
+        "module": "M-5100-02"
+      }
+    ]
+  },
+  {
+    "_id": "M-5100-03",
+    "name": "Informed Search",
+    "description": "Lessons about informed search.",
+    "course": "5100",
+    "lessons": [
+      {
+        "_id": "L-5100-03-1",
+        "name": "Heuristics",
+        "description": "Lesson on heuristics.",
+        "module": "M-5100-03"
+      },
+      {
+        "_id": "L-5100-03-2",
+        "name": "Greedy search",
+        "description": "Lesson on greedy search.",
+        "module": "M-5100-03"
+      },
+      {
+        "_id": "L-5100-03-3",
+        "name": "A* search",
+        "description": "Lesson on a* search.",
+        "module": "M-5100-03"
+      }
+    ]
+  },
+  {
+    "_id": "M-5100-04",
+    "name": "Local Search",
+    "description": "Lessons about local search.",
+    "course": "5100",
+    "lessons": [
+      {
+        "_id": "L-5100-04-1",
+        "name": "Hill climbing",
+        "description": "Lesson on hill climbing.",
+        "module": "M-5100-04"
+      },
+      {
+        "_id": "L-5100-04-2",
+        "name": "Simulated annealing",
+        "description": "Lesson on simulated annealing.",
+        "module": "M-5100-04"
+      },
+      {
+        "_id": "L-5100-04-3",
+        "name": "Genetic algorithms",
+        "description": "Lesson on genetic algorithms.",
+        "module": "M-5100-04"
+      }
+    ]
+  },
+  {
+    "_id": "M-5100-05",
+    "name": "Adversarial Search",
+    "description": "Lessons about adversarial search.",
+    "course": "5100",
+    "lessons": [
+      {
+        "_id": "L-5100-05-1",
+        "name": "Minimax",
+        "description": "Lesson on minimax.",
+        "module": "M-5100-05"
+      },
+      {
+        "_id": "L-5100-05-2",
+        "name": "Alpha-beta pruning",
+        "description": "Lesson on alpha-beta pruning.",
+        "module": "M-5100-05"
+      },
+      {
+        "_id": "L-5100-05-3",
+        "name": "Expectimax",
+        "description": "Lesson on expectimax.",
+        "module": "M-5100-05"
+      }
+    ]
+  },
+  {
+    "_id": "M-5100-06",
+    "name": "Constraint Satisfaction",
+    "description": "Lessons about constraint satisfaction.",
+    "course": "5100",
+    "lessons": [
+      {
+        "_id": "L-5100-06-1",
+        "name": "CSP formulation",
+        "description": "Lesson on csp formulation.",
+        "module": "M-5100-06"
+      },
+      {
+        "_id": "L-5100-06-2",
+        "name": "Backtracking",
+        "description": "Lesson on backtracking.",
+        "module": "M-5100-06"
+      },
+      {
+        "_id": "L-5100-06-3",
+        "name": "Arc consistency",
+        "description": "Lesson on arc consistency.",
+        "module": "M-5100-06"
+      }
+    ]
+  },
+  {
+    "_id": "M-5100-07",
+    "name": "Markov Decision Processes",
+    "description": "Lessons about markov decision processes.",
+    "course": "5100",
+    "lessons": [
+      {
+        "_id": "L-5100-07-1",
+        "name": "MDP formulation",
+        "description": "Lesson on mdp formulation.",
+        "module": "M-5100-07"
+      },
+      {
+        "_id": "L-5100-07-2",
+        "name": "Value iteration",
+        "description": "Lesson on value iteration.",
+        "module": "M-5100-07"
+      },
+      {
+        "_id": "L-5100-07-3",
+        "name": "Policy iteration",
+        "description": "Lesson on policy iteration.",
+        "module": "M-5100-07"
+      }
+    ]
+  },
+  {
+    "_id": "M-5100-08",
+    "name": "Reinforcement Learning",
+    "description": "Lessons about reinforcement learning.",
+    "course": "5100",
+    "lessons": [
+      {
+        "_id": "L-5100-08-1",
+        "name": "Q-learning",
+        "description": "Lesson on q-learning.",
+        "module": "M-5100-08"
+      },
+      {
+        "_id": "L-5100-08-2",
+        "name": "Exploration vs exploitation",
+        "description": "Lesson on exploration vs exploitation.",
+        "module": "M-5100-08"
+      },
+      {
+        "_id": "L-5100-08-3",
+        "name": "Function approximation",
+        "description": "Lesson on function approximation.",
+        "module": "M-5100-08"
+      }
+    ]
+  },
+  {
+    "_id": "M-5100-09",
+    "name": "Probabilistic Reasoning",
+    "description": "Lessons about probabilistic reasoning.",
+    "course": "5100",
+    "lessons": [
+      {
+        "_id": "L-5100-09-1",
+        "name": "Bayes nets",
+        "description": "Lesson on bayes nets.",
+        "module": "M-5100-09"
+      },
+      {
+        "_id": "L-5100-09-2",
+        "name": "Inference",
+        "description": "Lesson on inference.",
+        "module": "M-5100-09"
+      },
+      {
+        "_id": "L-5100-09-3",
+        "name": "Hidden Markov Models",
+        "description": "Lesson on hidden markov models.",
+        "module": "M-5100-09"
+      }
+    ]
+  },
+  {
+    "_id": "M-5100-10",
+    "name": "Logic & Knowledge",
+    "description": "Lessons about logic & knowledge.",
+    "course": "5100",
+    "lessons": [
+      {
+        "_id": "L-5100-10-1",
+        "name": "Propositional logic",
+        "description": "Lesson on propositional logic.",
+        "module": "M-5100-10"
+      },
+      {
+        "_id": "L-5100-10-2",
+        "name": "First-order logic",
+        "description": "Lesson on first-order logic.",
+        "module": "M-5100-10"
+      },
+      {
+        "_id": "L-5100-10-3",
+        "name": "Inference & planning",
+        "description": "Lesson on inference & planning.",
+        "module": "M-5100-10"
+      }
+    ]
+  },
+  {
+    "_id": "M-6650-01",
+    "name": "Distributed Foundations",
+    "description": "Lessons about distributed foundations.",
+    "course": "6650",
+    "lessons": [
+      {
+        "_id": "L-6650-01-1",
+        "name": "System models",
+        "description": "Lesson on system models.",
+        "module": "M-6650-01"
+      },
+      {
+        "_id": "L-6650-01-2",
+        "name": "Scalability & quality attributes",
+        "description": "Lesson on scalability & quality attributes.",
+        "module": "M-6650-01"
+      },
+      {
+        "_id": "L-6650-01-3",
+        "name": "Trade-offs",
+        "description": "Lesson on trade-offs.",
+        "module": "M-6650-01"
+      }
+    ]
+  },
+  {
+    "_id": "M-6650-02",
+    "name": "Concurrency",
+    "description": "Lessons about concurrency.",
+    "course": "6650",
+    "lessons": [
+      {
+        "_id": "L-6650-02-1",
+        "name": "Threads",
+        "description": "Lesson on threads.",
+        "module": "M-6650-02"
+      },
+      {
+        "_id": "L-6650-02-2",
+        "name": "Locks & synchronization",
+        "description": "Lesson on locks & synchronization.",
+        "module": "M-6650-02"
+      },
+      {
+        "_id": "L-6650-02-3",
+        "name": "Deadlocks",
+        "description": "Lesson on deadlocks.",
+        "module": "M-6650-02"
+      }
+    ]
+  },
+  {
+    "_id": "M-6650-03",
+    "name": "Networking",
+    "description": "Lessons about networking.",
+    "course": "6650",
+    "lessons": [
+      {
+        "_id": "L-6650-03-1",
+        "name": "TCP/UDP sockets",
+        "description": "Lesson on tcp/udp sockets.",
+        "module": "M-6650-03"
+      },
+      {
+        "_id": "L-6650-03-2",
+        "name": "Client-server",
+        "description": "Lesson on client-server.",
+        "module": "M-6650-03"
+      },
+      {
+        "_id": "L-6650-03-3",
+        "name": "Serialization",
+        "description": "Lesson on serialization.",
+        "module": "M-6650-03"
+      }
+    ]
+  },
+  {
+    "_id": "M-6650-04",
+    "name": "Remote Communication",
+    "description": "Lessons about remote communication.",
+    "course": "6650",
+    "lessons": [
+      {
+        "_id": "L-6650-04-1",
+        "name": "RPC",
+        "description": "Lesson on rpc.",
+        "module": "M-6650-04"
+      },
+      {
+        "_id": "L-6650-04-2",
+        "name": "REST & gRPC",
+        "description": "Lesson on rest & grpc.",
+        "module": "M-6650-04"
+      },
+      {
+        "_id": "L-6650-04-3",
+        "name": "Message formats",
+        "description": "Lesson on message formats.",
+        "module": "M-6650-04"
+      }
+    ]
+  },
+  {
+    "_id": "M-6650-05",
+    "name": "Consistency",
+    "description": "Lessons about consistency.",
+    "course": "6650",
+    "lessons": [
+      {
+        "_id": "L-6650-05-1",
+        "name": "Consistency models",
+        "description": "Lesson on consistency models.",
+        "module": "M-6650-05"
+      },
+      {
+        "_id": "L-6650-05-2",
+        "name": "Replication",
+        "description": "Lesson on replication.",
+        "module": "M-6650-05"
+      },
+      {
+        "_id": "L-6650-05-3",
+        "name": "CAP theorem",
+        "description": "Lesson on cap theorem.",
+        "module": "M-6650-05"
+      }
+    ]
+  },
+  {
+    "_id": "M-6650-06",
+    "name": "Consensus",
+    "description": "Lessons about consensus.",
+    "course": "6650",
+    "lessons": [
+      {
+        "_id": "L-6650-06-1",
+        "name": "Leader election",
+        "description": "Lesson on leader election.",
+        "module": "M-6650-06"
+      },
+      {
+        "_id": "L-6650-06-2",
+        "name": "Paxos",
+        "description": "Lesson on paxos.",
+        "module": "M-6650-06"
+      },
+      {
+        "_id": "L-6650-06-3",
+        "name": "Raft",
+        "description": "Lesson on raft.",
+        "module": "M-6650-06"
+      }
+    ]
+  },
+  {
+    "_id": "M-6650-07",
+    "name": "Messaging",
+    "description": "Lessons about messaging.",
+    "course": "6650",
+    "lessons": [
+      {
+        "_id": "L-6650-07-1",
+        "name": "Message queues",
+        "description": "Lesson on message queues.",
+        "module": "M-6650-07"
+      },
+      {
+        "_id": "L-6650-07-2",
+        "name": "Pub/sub",
+        "description": "Lesson on pub/sub.",
+        "module": "M-6650-07"
+      },
+      {
+        "_id": "L-6650-07-3",
+        "name": "RabbitMQ & Kafka",
+        "description": "Lesson on rabbitmq & kafka.",
+        "module": "M-6650-07"
+      }
+    ]
+  },
+  {
+    "_id": "M-6650-08",
+    "name": "Storage at Scale",
+    "description": "Lessons about storage at scale.",
+    "course": "6650",
+    "lessons": [
+      {
+        "_id": "L-6650-08-1",
+        "name": "Sharding",
+        "description": "Lesson on sharding.",
+        "module": "M-6650-08"
+      },
+      {
+        "_id": "L-6650-08-2",
+        "name": "Distributed key-value stores",
+        "description": "Lesson on distributed key-value stores.",
+        "module": "M-6650-08"
+      },
+      {
+        "_id": "L-6650-08-3",
+        "name": "Caching",
+        "description": "Lesson on caching.",
+        "module": "M-6650-08"
+      }
+    ]
+  },
+  {
+    "_id": "M-6650-09",
+    "name": "Microservices",
+    "description": "Lessons about microservices.",
+    "course": "6650",
+    "lessons": [
+      {
+        "_id": "L-6650-09-1",
+        "name": "Service decomposition",
+        "description": "Lesson on service decomposition.",
+        "module": "M-6650-09"
+      },
+      {
+        "_id": "L-6650-09-2",
+        "name": "API gateways",
+        "description": "Lesson on api gateways.",
+        "module": "M-6650-09"
+      },
+      {
+        "_id": "L-6650-09-3",
+        "name": "Service discovery",
+        "description": "Lesson on service discovery.",
+        "module": "M-6650-09"
+      }
+    ]
+  },
+  {
+    "_id": "M-6650-10",
+    "name": "Cloud & Reliability",
+    "description": "Lessons about cloud & reliability.",
+    "course": "6650",
+    "lessons": [
+      {
+        "_id": "L-6650-10-1",
+        "name": "Containers & orchestration",
+        "description": "Lesson on containers & orchestration.",
+        "module": "M-6650-10"
+      },
+      {
+        "_id": "L-6650-10-2",
+        "name": "Load balancing",
+        "description": "Lesson on load balancing.",
+        "module": "M-6650-10"
+      },
+      {
+        "_id": "L-6650-10-3",
+        "name": "Fault tolerance",
+        "description": "Lesson on fault tolerance.",
+        "module": "M-6650-10"
+      }
+    ]
+  }
+]
