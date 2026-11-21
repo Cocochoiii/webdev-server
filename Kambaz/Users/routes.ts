@@ -1,4 +1,4 @@
-// The user routes sign people in and out and remember them in the session
+// The user routes sign people in and out with the session
 import UsersDao from "./dao";
 export default function UserRoutes(app, db) {
   const dao = UsersDao(db);
@@ -53,7 +53,7 @@ export default function UserRoutes(app, db) {
   app.post("/api/users/signup", signup);
   app.post("/api/users/signin", signin);
   app.post("/api/users/signout", signout);
-  app.post("/api/users/profile", profile);
+  app.get("/api/users/profile", profile);
   app.put("/api/users/:userId", updateUser);
   app.post("/api/users", createUser);
   app.get("/api/courses/:courseId/users", findUsersForCourse);

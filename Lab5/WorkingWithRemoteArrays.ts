@@ -1,4 +1,4 @@
-// The todos array lives in memory and these routes read and change it
+// These routes read and change the todos array in memory
 let todos = [
   { id: 1, title: "Task 1", completed: false, description: "Task 1 description" },
   { id: 2, title: "Task 2", completed: true, description: "Task 2 description" },

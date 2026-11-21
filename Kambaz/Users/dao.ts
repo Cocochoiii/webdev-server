@@ -7,7 +7,6 @@ export default function UsersDao(db) {
     users = [...users, newUser];
     return newUser;
   };
-  const findAllUsers = () => users;
   const findUserById = (userId) => users.find((user) => user._id === userId);
   const findUserByUsername = (username) =>
     users.find((user) => user.username === username);
@@ -21,10 +20,8 @@ export default function UsersDao(db) {
     );
   const updateUser = (userId, user) =>
     (users = users.map((u) => (u._id === userId ? user : u)));
-  const deleteUser = (userId) =>
-    (users = users.filter((u) => u._id !== userId));
   return {
-    createUser, findAllUsers, findUserById, findUserByUsername,
-    findUserByCredentials, findUsersForCourse, updateUser, deleteUser,
+    createUser, findUserById, findUserByUsername,
+    findUserByCredentials, findUsersForCourse, updateUser,
   };
 }

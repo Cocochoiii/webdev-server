@@ -1,4 +1,4 @@
-// The hello routes get the app from index.ts instead of making their own
+// The hello routes use the app that index.ts makes
 import type { Express, Request, Response } from "express";
 export default function Hello(app: Express) {
   const sayHello = (req: Request, res: Response) => {

@@ -29,7 +29,7 @@ repository, [webdev-client](https://github.com/Cocochoiii/webdev-client).
 | `GET /lab5/assignment`, `GET /lab5/module` | the remote objects and their title, name, score, completed, and description routes |
 | `GET /lab5/todos` and the create, delete, title, completed, description routes | the remote array with GET |
 | `POST PUT DELETE /lab5/todos` | the same array with the right HTTP methods |
-| `POST /api/users/signin` `signup` `signout` `profile`, `PUT /api/users/:userId` | account, remembered in the session |
+| `POST /api/users/signin` `signup` `signout`, `GET /api/users/profile`, `PUT /api/users/:userId` | account, remembered in the session |
 | `GET /api/courses`, `GET /api/users/:userId/courses`, `POST /api/users/current/courses`, `PUT DELETE /api/courses/:courseId` | courses |
 | `GET POST /api/courses/:courseId/modules`, `PUT DELETE /api/modules/:moduleId` | modules |
 | `GET POST /api/courses/:courseId/assignments`, `PUT DELETE /api/assignments/:assignmentId` | assignments |

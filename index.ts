@@ -1,4 +1,4 @@
-// This file makes the one express app and hands it to every route file
+// This file makes the express app and gives it to every route
 import "dotenv/config";
 import express from "express";
 import cors from "cors";
@@ -28,7 +28,6 @@ if (process.env.SERVER_ENV !== "development") {
   sessionOptions.cookie = {
     sameSite: "none",
     secure: true,
-    domain: process.env.SERVER_URL,
   };
 }
 app.use(session(sessionOptions));

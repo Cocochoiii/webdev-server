@@ -1,4 +1,4 @@
-// The enrollment routes let the signed in user join or leave a course
+// The enrollment routes let a user join or leave a course
 import EnrollmentsDao from "./dao";
 export default function EnrollmentRoutes(app, db) {
   const dao = EnrollmentsDao(db);
