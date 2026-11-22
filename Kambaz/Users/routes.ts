@@ -38,9 +38,17 @@ export default function UserRoutes(app, db) {
     const userId = req.params.userId;
     const userUpdates = req.body;
     dao.updateUser(userId, userUpdates);
-    const currentUser = dao.findUserById(userId);
-    req.session["currentUser"] = currentUser;
-    res.json(currentUser);
+    const updatedUser = dao.findUserById(userId);
+    const currentUser = req.session["currentUser"];
+    if (currentUser && currentUser._id === userId) {
+      req.session["currentUser"] = updatedUser;
+    }
+    res.json(updatedUser);
+  };
+  const deleteUser = (req, res) => {
+    const { userId } = req.params;
+    dao.deleteUser(userId);
+    res.sendStatus(200);
   };
   const createUser = (req, res) => {
     const newUser = dao.createUser(req.body);
@@ -55,6 +63,7 @@ export default function UserRoutes(app, db) {
   app.post("/api/users/signout", signout);
   app.get("/api/users/profile", profile);
   app.put("/api/users/:userId", updateUser);
+  app.delete("/api/users/:userId", deleteUser);
   app.post("/api/users", createUser);
   app.get("/api/courses/:courseId/users", findUsersForCourse);
 }

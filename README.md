@@ -34,7 +34,7 @@ repository, [webdev-client](https://github.com/Cocochoiii/webdev-client).
 | `GET POST /api/courses/:courseId/modules`, `PUT DELETE /api/modules/:moduleId` | modules |
 | `GET POST /api/courses/:courseId/assignments`, `PUT DELETE /api/assignments/:assignmentId` | assignments |
 | `POST DELETE /api/users/:userId/courses/:courseId` | enroll and unenroll |
-| `GET /api/courses/:courseId/users`, `POST /api/users` | the people table |
+| `GET /api/courses/:courseId/users`, `POST /api/users`, `PUT DELETE /api/users/:userId` | the people table |
 
 The data only lives in memory, so a restart brings back the JSON files.
 
