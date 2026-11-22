@@ -9,14 +9,16 @@ repository, [webdev-client](https://github.com/Cocochoiii/webdev-client).
 
 - `main` branch — first version of the server
 - `a5` branch — Assignment 5 (Chapter 5: RESTful web APIs with Express)
+- `a6` branch — Assignment 6 (Chapter 6: the data moves into MongoDB with Mongoose)
 
 ## What is in here
 
-- `index.ts` — makes the express app, turns on cors, sessions, and JSON, and loads every route file
+- `index.ts` — connects to MongoDB, makes the express app, turns on cors, sessions, and JSON, and loads every route file
 - `Hello.ts` — the `/hello` and `/` greetings
 - `Lab5/` — the lab 5 routes: path parameters, query parameters, a remote object, and a remote array of todos
-- `Kambaz/Database/` — the JSON files copied from the client, put together in `index.ts`
-- `Kambaz/Users`, `Courses`, `Modules`, `Assignments`, `Enrollments` — one `dao.ts` that touches the data and one `routes.ts` that maps the URLs
+- `Lab6/` — the lab 6 routes: the database connection status and a todos collection with every CRUD call
+- `Kambaz/Database/` — the JSON files I import into the `kambaz` database with Compass
+- `Kambaz/Users`, `Courses`, `Modules`, `Assignments`, `Enrollments` — a `schema.ts` that describes the documents, a `model.ts` that talks to the collection, a `dao.ts` that wraps the model calls, and a `routes.ts` that maps the URLs
 
 ## Routes
 
@@ -29,14 +31,18 @@ repository, [webdev-client](https://github.com/Cocochoiii/webdev-client).
 | `GET /lab5/assignment`, `GET /lab5/module` | the remote objects and their title, name, score, completed, and description routes |
 | `GET /lab5/todos` and the create, delete, title, completed, description routes | the remote array with GET |
 | `POST PUT DELETE /lab5/todos` | the same array with the right HTTP methods |
-| `POST /api/users/signin` `signup` `signout`, `GET /api/users/profile`, `PUT /api/users/:userId` | account, remembered in the session |
-| `GET /api/courses`, `GET /api/users/:userId/courses`, `POST /api/users/current/courses`, `PUT DELETE /api/courses/:courseId` | courses |
+| `GET /lab6/status` | whether Mongoose is connected |
+| `GET POST /lab6/todos`, `GET PUT DELETE /lab6/todos/:id`, `GET /lab6/todos?completed=true` | the lab 6 todos collection |
+| `POST /api/users/signin` `signup` `signout`, `GET /api/users/profile` | account, remembered in the session |
+| `GET /api/users`, `GET /api/users?role=FACULTY`, `GET /api/users?name=thor`, `GET POST PUT DELETE` by `/api/users/:userId` | the admin Users screen |
+| `GET POST /api/courses`, `GET PUT DELETE /api/courses/:courseId`, `GET /api/users/:userId/courses` | courses |
 | `GET POST /api/courses/:courseId/modules`, `PUT DELETE /api/modules/:moduleId` | modules |
 | `GET POST /api/courses/:courseId/assignments`, `PUT DELETE /api/assignments/:assignmentId` | assignments |
-| `POST DELETE /api/users/:userId/courses/:courseId` | enroll and unenroll |
-| `GET /api/courses/:courseId/users`, `POST /api/users`, `PUT DELETE /api/users/:userId` | the people table |
+| `POST DELETE /api/users/:uid/courses/:cid`, `GET /api/courses/:cid/users` | enroll, unenroll, and the people in a course |
 
-The data only lives in memory, so a restart brings back the JSON files.
+The data lives in the `kambaz` MongoDB database, so it survives a restart.
+Modules, assignments, and enrollments each keep a `course` or `user` id that
+points at the document they belong to.
 
 ## Running it
 
@@ -45,11 +51,18 @@ npm install
 npm run dev
 ```
 
-The server listens on http://localhost:4000. It needs a `.env` file with
-`SERVER_ENV`, `CLIENT_URL`, `SERVER_URL`, and `SESSION_SECRET`.
+MongoDB has to be running first. Locally I start it with
+`mongod --dbpath ~/data` and import the five JSON files from `Kambaz/Database`
+into a database called `kambaz` with Compass. The server listens on
+http://localhost:4000. It needs a `.env` file with the keys in `.env.example`:
+`SERVER_ENV`, `CLIENT_URL`, `SERVER_URL`, `SESSION_SECRET`, and
+`DATABASE_CONNECTION_STRING`.
 
 ## Deploying
 
-I deploy this repository on Render as a web service. Build command is
-`npm install` and start command is `npm start`. The same four environment
-variables are set in Render with the production values.
+I deploy this repository on Render as a web service, one service per
+assignment branch so the older one keeps working. Build command is
+`npm install` and start command is `npm start`. The same five environment
+variables are set in Render with the production values, and
+`DATABASE_CONNECTION_STRING` points at my MongoDB Atlas cluster with `kambaz`
+in the path.

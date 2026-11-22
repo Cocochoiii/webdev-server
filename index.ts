@@ -1,16 +1,20 @@
-// This file makes the express app and gives it to every route
+// This file connects to MongoDB, makes the app, and loads every route
 import "dotenv/config";
 import express from "express";
+import mongoose from "mongoose";
 import cors from "cors";
 import session from "express-session";
 import Hello from "./Hello";
 import Lab5 from "./Lab5/index";
-import db from "./Kambaz/Database/index";
+import Lab6 from "./Lab6/index";
 import UserRoutes from "./Kambaz/Users/routes";
 import CourseRoutes from "./Kambaz/Courses/routes";
 import ModuleRoutes from "./Kambaz/Modules/routes";
 import AssignmentRoutes from "./Kambaz/Assignments/routes";
-import EnrollmentRoutes from "./Kambaz/Enrollments/routes";
+const CONNECTION_STRING =
+  process.env.DATABASE_CONNECTION_STRING ||
+  "mongodb://127.0.0.1:27017/kambaz";
+await mongoose.connect(CONNECTION_STRING);
 const app = express();
 app.use(
   cors({
@@ -33,10 +37,10 @@ if (process.env.SERVER_ENV !== "development") {
 app.use(session(sessionOptions));
 app.use(express.json());
 Lab5(app);
+Lab6(app);
 Hello(app);
-UserRoutes(app, db);
-CourseRoutes(app, db);
-ModuleRoutes(app, db);
-AssignmentRoutes(app, db);
-EnrollmentRoutes(app, db);
+UserRoutes(app);
+CourseRoutes(app);
+ModuleRoutes(app);
+AssignmentRoutes(app);
 app.listen(process.env.PORT || 4000);

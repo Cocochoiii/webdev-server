@@ -1,37 +1,26 @@
-// The courses DAO reads and changes the courses array in the database
+// The courses DAO reads and changes the courses collection
+import model from "./model";
 import { v4 as uuidv4 } from "uuid";
-export default function CoursesDao(db) {
+export default function CoursesDao() {
   function findAllCourses() {
-    return db.courses;
+    return model.find();
   }
-  function findCoursesForEnrolledUser(userId) {
-    const { courses, enrollments } = db;
-    return courses.filter((course) =>
-      enrollments.some(
-        (enrollment) =>
-          enrollment.user === userId && enrollment.course === course._id,
-      ),
-    );
+  function findCourseById(courseId) {
+    return model.findById(courseId);
   }
   function createCourse(course) {
     const newCourse = { ...course, _id: uuidv4() };
-    db.courses = [...db.courses, newCourse];
-    return newCourse;
+    return model.create(newCourse);
   }
   function deleteCourse(courseId) {
-    const { courses, enrollments } = db;
-    db.courses = courses.filter((course) => course._id !== courseId);
-    db.enrollments = enrollments.filter((enrollment) => enrollment.course !== courseId);
+    return model.deleteOne({ _id: courseId });
   }
   function updateCourse(courseId, courseUpdates) {
-    const { courses } = db;
-    const course = courses.find((course) => course._id === courseId);
-    Object.assign(course, courseUpdates);
-    return course;
+    return model.updateOne({ _id: courseId }, { $set: courseUpdates });
   }
   return {
     findAllCourses,
-    findCoursesForEnrolledUser,
+    findCourseById,
     createCourse,
     deleteCourse,
     updateCourse,
